@@ -4,6 +4,11 @@
 // **************************************
 
 // import the grid component
-@import 'grid';
+@import '_grid.scss';
 
 // NOTE: import other components here:
+@import '_buttons.scss';
+@import '_forms.scss';
+@import '_images.scss';
+@import '_navigation.scss';
+@import '_typography.scss';
