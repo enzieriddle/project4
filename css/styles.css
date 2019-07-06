@@ -168,9 +168,24 @@ a {
   text-align: center;
 }
 
-.nav__item a:hover {
-  color: white;
+.nav__item {
+  width: 100%;
+  font-size: 1.5rem;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.7em;
+}
+
+.nav__item:hover {
   background-color: #3ce6c9;
+}
+
+a {
+  padding: 1em 4em;
+}
+
+a:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
