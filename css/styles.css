@@ -188,4 +188,10 @@ a:hover {
   color: white;
 }
 
+@font-face {
+  font-family: "Raleway Black";
+  src: url("../components/fonts/Raleway-Black.eot");
+  src: url("../components/fonts/Raleway-Black.eot?#iefix") format("embedded-opentype"), url("../components/fonts/Raleway-Black.woff") format("woff"), url("../components/fonts/Raleway-Black.ttf") format("truetype");
+}
+
 /*# sourceMappingURL=styles.css.map */
