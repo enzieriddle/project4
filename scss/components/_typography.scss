@@ -1,0 +1,31 @@
+p {
+  @include paragraph;
+}
+
+.headline--secondary {
+  @include paragraph;
+  font-family: 'Raleway Light';
+}
+
+.headline--primary {
+  font-family: 'Raleway Bold';
+  color: $seafoam-green;
+  width: 80%;
+  padding-left: .75em;
+  padding-right: 1em;
+}
+
+.link {
+  font-family: 'Raleway Bold';
+  text-decoration: none;
+  color: $bright-blue;
+}
+
+.blockquote {
+  font-family: 'Raleway Light Italic';
+  color: #707070;
+  font-size: 2rem;
+  padding-left: .7em;
+  border-left: 10px solid $seafoam-green;
+  border-radius: 5px;
+}

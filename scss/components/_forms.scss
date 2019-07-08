@@ -1,0 +1,22 @@
+.form {
+
+}
+
+.form__label--hidden::before {
+  content: '\a';
+  white-space: pre;
+}
+
+.form__input {
+  border: none;
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+.form__label--hidden,
+.form__input {
+  margin-bottom: 4em;
+
+}
