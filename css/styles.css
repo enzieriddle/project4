@@ -165,13 +165,164 @@ ul {
   }
 }
 
+.grid__col--12.theme__colors {
+  background-color: #8adecd;
+}
+
+.grid__col--6.theme__colors {
+  background-color: #4e84a6;
+}
+
+.grid__col--4.theme__colors {
+  background-color: #70e5ff;
+}
+
+.grid__col--3.theme__colors {
+  background-color: #dbaeeb;
+}
+
+.grid__col--5.theme__colors {
+  background-color: #81c787;
+}
+
+.grid__col--7.theme__colors {
+  background-color: #cf8484;
+}
+
+.grid__col--8.theme__colors {
+  background-color: #f5915f;
+}
+
+.grid__col--12,
+.grid__col--6,
+.grid__col--4,
+.grid__col--3,
+.grid__col--5,
+.grid__col--7,
+.grid__col--8 {
+  font-family: "Raleway Bold";
+  font-size: 1rem;
+  color: #5c5c5c;
+  width: 100%;
+  display: block;
+  padding: 1em 0.7em;
+  border-radius: 7px;
+}
+
+.btn--default {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #70e5ff;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: "Raleway Bold";
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--default:hover {
+  border: 6px solid #adf0ff;
+}
+
+.btn--success {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #72b586;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: "Raleway Bold";
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--success:hover {
+  border: 6px solid #9acaa8;
+}
+
+.btn--error {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #cf6d6d;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: "Raleway Bold";
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--error:hover {
+  border: 6px solid #de9b9b;
+}
+
+.btn--warning {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #f06f4f;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: "Raleway Bold";
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--warning:hover {
+  border: 6px solid #f59d87;
+}
+
+.btn--info {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #946da6;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: "Raleway Bold";
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--info:hover {
+  border: 6px solid #b093bd;
+}
+
+.btn--default,
+.btn--success,
+.btn--error,
+.btn--warning,
+.btn--info {
+  margin-bottom: 1em;
+}
+
 .form__label--hidden::before {
   content: "\a";
   white-space: pre;
 }
 
+.form__label--hidden {
+  display: none;
+}
+
 .form__input {
+  width: 100%;
+  padding-bottom: 0.5em;
   border: none;
+  font-family: "Raleway Bold";
+  font-size: 1rem;
+  color: #5c5c5c;
+}
+
+::placeholder {
+  text-align: left;
+  padding-left: 0.5em;
 }
 
 .form__input:focus {
@@ -181,6 +332,7 @@ ul {
 .form__label--hidden,
 .form__input {
   margin-bottom: 4em;
+  border-bottom: 5px solid #3ce6c9;
 }
 
 .img--logo {
@@ -194,6 +346,13 @@ ul {
   margin: 0 auto;
   margin-top: 2em;
   margin-bottom: 4em;
+}
+
+.img--frame {
+  display: block;
+  margin: 0 auto;
+  padding: 1em 1em;
+  border: 1px solid #b8b8b8;
 }
 
 .nav {
@@ -214,9 +373,9 @@ ul {
 }
 
 .nav__item a {
+  width: 100%;
   color: black;
   text-decoration: none;
-  padding: 1em 6em;
 }
 
 .nav__item a:hover {

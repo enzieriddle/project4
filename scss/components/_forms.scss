@@ -7,8 +7,24 @@
   white-space: pre;
 }
 
+.form__label--hidden {
+  // color: $paragraph-text-color;
+  // font-family: 'Raleway Bold';
+  display: none;
+}
+
 .form__input {
+  width: 100%;
+  padding-bottom: .5em;
   border: none;
+  font-family: 'Raleway Bold';
+  font-size: 1rem;
+  color: $paragraph-text-color;
+}
+
+::placeholder {
+  text-align: left;
+  padding-left: .5em;
 }
 
 .form__input:focus {
@@ -18,5 +34,5 @@
 .form__label--hidden,
 .form__input {
   margin-bottom: 4em;
-
+  border-bottom: 5px solid $seafoam-green;
 }

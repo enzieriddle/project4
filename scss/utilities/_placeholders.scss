@@ -1,4 +1,4 @@
 @mixin paragraph {
-  color: #5c5c5c;
+  color: $paragraph-text-color;
   font-size: 1.55rem;
 }

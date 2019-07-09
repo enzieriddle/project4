@@ -1,0 +1,92 @@
+.btn--default {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: $bright-blue;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: 'Raleway Bold';
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--default:hover {
+  border: 6px solid $bright-blue-light;
+}
+
+.btn--success {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #72b586;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: 'Raleway Bold';
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--success:hover {
+  border: 6px solid lighten(#72b586, 12%);
+}
+
+.btn--error {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #cf6d6d;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: 'Raleway Bold';
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--error:hover {
+  border: 6px solid lighten(#cf6d6d, 12%);
+}
+
+.btn--warning {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #f06f4f;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: 'Raleway Bold';
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--warning:hover {
+  border: 6px solid lighten(#f06f4f, 12%);
+}
+
+.btn--info {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #946da6;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-family: 'Raleway Bold';
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn--info:hover {
+  border: 6px solid lighten(#946da6, 12%);
+}
+
+.btn--default,
+.btn--success,
+.btn--error,
+.btn--warning,
+.btn--info {
+  margin-bottom: 1em;
+}

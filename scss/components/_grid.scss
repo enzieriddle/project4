@@ -33,7 +33,7 @@
       // selector would be .grid__col--1
       &--#{$i} {
 
-        // base styles applied to all grid columns 
+        // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin
         // from the  media query
         margin-top: 10px;
@@ -65,4 +65,48 @@
       margin-left: 10px;
     }
   }
+}
+
+.grid__col--12.theme__colors {
+  background-color: #8adecd;
+}
+
+.grid__col--6.theme__colors {
+  background-color: #4e84a6;
+}
+
+.grid__col--4.theme__colors {
+  background-color: $bright-blue;
+}
+
+.grid__col--3.theme__colors {
+  background-color: #dbaeeb;
+}
+
+.grid__col--5.theme__colors {
+  background-color: #81c787;
+}
+
+.grid__col--7.theme__colors {
+  background-color: #cf8484;
+}
+
+.grid__col--8.theme__colors {
+  background-color: #f5915f;
+}
+
+.grid__col--12,
+.grid__col--6,
+.grid__col--4,
+.grid__col--3,
+.grid__col--5,
+.grid__col--7,
+.grid__col--8 {
+  font-family: 'Raleway Bold';
+  font-size: 1rem;
+  color: $paragraph-text-color;
+  width: 100%;
+  display: block;
+  padding: 1em .7em;
+  border-radius: 7px;
 }
