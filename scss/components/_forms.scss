@@ -1,15 +1,9 @@
-.form {
-
-}
-
 .form__label--hidden::before {
   content: '\a';
   white-space: pre;
 }
 
 .form__label--hidden {
-  // color: $paragraph-text-color;
-  // font-family: 'Raleway Bold';
   display: none;
 }
 
@@ -17,7 +11,7 @@
   width: 100%;
   padding-bottom: .5em;
   border: none;
-  font-family: 'Raleway Bold';
+  font-family: $bold;
   font-size: 1rem;
   color: $paragraph-text-color;
 }

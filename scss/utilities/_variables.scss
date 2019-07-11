@@ -1,4 +1,15 @@
+/* Fonts ----------------------*/
+$regular: 'Raleway Regular';
+$bold: 'Raleway Bold';
+$light: 'Raleway Light';
+$light-italic: 'Raleway Light Italic';
+
+/* Breakpoints ----------------------*/
+$break-s: 769px;
+
+/* Colors ----------------------*/
 $seafoam-green: #3ce6c9;
 $bright-blue: #70e5ff;
 $bright-blue-light: lighten($bright-blue, 12%);
 $paragraph-text-color: #5c5c5c;
+$block-quote-color: #707070;

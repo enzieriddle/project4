@@ -1,14 +1,7 @@
 .btn--default {
-  width: 100%;
-  display: block;
-  color: white;
+  @include button;
+  @include center;
   background-color: $bright-blue;
-  border: none;
-  border-radius: 7px;
-  height: 50px;
-  font-family: 'Raleway Bold';
-  font-size: 1.2rem;
-  text-transform: uppercase;
 }
 
 .btn--default:hover {
@@ -16,16 +9,9 @@
 }
 
 .btn--success {
-  width: 100%;
-  display: block;
-  color: white;
+  @include center;
+  @include button;
   background-color: #72b586;
-  border: none;
-  border-radius: 7px;
-  height: 50px;
-  font-family: 'Raleway Bold';
-  font-size: 1.2rem;
-  text-transform: uppercase;
 }
 
 .btn--success:hover {
@@ -33,16 +19,9 @@
 }
 
 .btn--error {
-  width: 100%;
-  display: block;
-  color: white;
+  @include button;
+  @include center;
   background-color: #cf6d6d;
-  border: none;
-  border-radius: 7px;
-  height: 50px;
-  font-family: 'Raleway Bold';
-  font-size: 1.2rem;
-  text-transform: uppercase;
 }
 
 .btn--error:hover {
@@ -50,16 +29,9 @@
 }
 
 .btn--warning {
-  width: 100%;
-  display: block;
-  color: white;
+  @include button;
+  @include center;
   background-color: #f06f4f;
-  border: none;
-  border-radius: 7px;
-  height: 50px;
-  font-family: 'Raleway Bold';
-  font-size: 1.2rem;
-  text-transform: uppercase;
 }
 
 .btn--warning:hover {
@@ -67,16 +39,9 @@
 }
 
 .btn--info {
-  width: 100%;
-  display: block;
-  color: white;
+  @include button;
+  @include center;
   background-color: #946da6;
-  border: none;
-  border-radius: 7px;
-  height: 50px;
-  font-family: 'Raleway Bold';
-  font-size: 1.2rem;
-  text-transform: uppercase;
 }
 
 .btn--info:hover {
@@ -89,4 +54,7 @@
 .btn--warning,
 .btn--info {
   margin-bottom: 1em;
+  // @media (min-width: $break-s) {
+  //   width: 10%;
+  // }
 }

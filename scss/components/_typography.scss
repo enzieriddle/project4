@@ -4,11 +4,11 @@ p {
 
 .headline--secondary {
   @include paragraph;
-  font-family: 'Raleway Light';
+  font-family: $light;
 }
 
 .headline--primary {
-  font-family: 'Raleway Bold';
+  font-family: $bold;
   color: $seafoam-green;
   width: 80%;
   padding-left: .75em;
@@ -16,14 +16,19 @@ p {
 }
 
 .link {
-  font-family: 'Raleway Bold';
+  font-family: $bold;
   text-decoration: none;
   color: $bright-blue;
+  @media (min-width: $break-s) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .blockquote {
-  font-family: 'Raleway Light Italic';
-  color: #707070;
+  font-family: $light-italic;
+  color: $block-quote-color;
   font-size: 2rem;
   padding-left: .7em;
   border-left: 10px solid $seafoam-green;

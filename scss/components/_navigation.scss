@@ -1,24 +1,32 @@
 .nav {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
+  @include center;
   margin-top: 1em;
   text-align: center;
+  @media (min-width: $break-s) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 
 .nav__item {
-  color: #4a4a4a;
-  width: 100%;
   font-size: 1.5rem;
-  padding-top: .5em;
-  padding-bottom: .5em;
   margin-bottom: .7em;
+  @media (min-width: $break-s) {
+    font-size: 1rem;
+    padding-top: 1.5em;
+    padding-left: 1em;
+  }
 }
 
 .nav__item a {
-  width: 100%;
+  display: block;
+  padding: .5em 0;
   color: black;
   text-decoration: none;
+  @media (min-width: $break-s) {
+    padding: .3em .3em;
+  }
 }
 
 .nav__item a:hover {
