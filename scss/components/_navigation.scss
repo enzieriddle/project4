@@ -2,7 +2,7 @@
   @include center;
   margin-top: 1em;
   text-align: center;
-  @media (min-width: $break-m) {
+  @include media-query(m) {
     @include flexy;
     justify-content: flex-end;
   }
