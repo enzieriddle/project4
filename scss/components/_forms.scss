@@ -11,14 +11,14 @@
   width: 100%;
   padding-bottom: .5em;
   border: none;
+  color: $paragraph-text-color;
   font-family: $bold;
   font-size: 1rem;
-  color: $paragraph-text-color;
 }
 
 ::placeholder {
-  text-align: left;
   padding-left: .5em;
+  text-align: left;
 }
 
 .form__input:focus {
@@ -27,6 +27,6 @@
 
 .form__label--hidden,
 .form__input {
-  margin-bottom: 4em;
   border-bottom: 5px solid $seafoam-green;
+  margin-bottom: 4em;
 }

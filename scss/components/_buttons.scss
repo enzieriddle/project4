@@ -9,8 +9,8 @@
 }
 
 .btn--success {
-  @include center;
   @include button;
+  @include center;
   background-color: #72b586;
 }
 
@@ -48,13 +48,20 @@
   border: 6px solid lighten(#946da6, 12%);
 }
 
+.grid__col--12 {
+  @include media-query(m) {
+    @include flexy;
+    justify-content: center;
+  }
+}
+
 .btn--default,
 .btn--success,
 .btn--error,
 .btn--warning,
 .btn--info {
   margin-bottom: 1em;
-  // @media (min-width: $break-s) {
-  //   width: 10%;
-  // }
+  @include media-query(m) {
+    width: 15%;
+  }
 }

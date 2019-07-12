@@ -8,29 +8,28 @@ p {
 }
 
 .headline--primary {
-  font-family: $bold;
-  color: $seafoam-green;
   width: 80%;
   padding-left: .75em;
   padding-right: 1em;
+  color: $seafoam-green;
+  font-family: $bold;
 }
 
 .link {
+  color: $bright-blue;
   font-family: $bold;
   text-decoration: none;
-  color: $bright-blue;
-  @media (min-width: $break-s) {
-    display: flex;
-    flex-direction: row;
+  @include media-query(m) {
+    @include flexy;
     justify-content: space-between;
   }
 }
 
 .blockquote {
-  font-family: $light-italic;
-  color: $block-quote-color;
-  font-size: 2rem;
   padding-left: .7em;
   border-left: 10px solid $seafoam-green;
   border-radius: 5px;
+  color: $block-quote-color;
+  font-family: $light-italic;
+  font-size: 2rem;
 }

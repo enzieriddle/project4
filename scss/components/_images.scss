@@ -1,7 +1,10 @@
 .img--logo {
   @include center;
-  @media (min-width: $break-s) {
+  @include media-query(m) {
     margin: 0;
+  }
+  @include media-query(l) {
+    width: 200px;
   }
 }
 
